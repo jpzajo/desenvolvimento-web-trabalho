@@ -4,57 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desenvolvimento Web</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <p>João Paulo Gonçalves da Silva</p>
-        <nav>
-            <a href="#about_me">Sobre mim</a>
-            <a href="#contacts">Contatos</a>
-        </nav>
-        
+    <header class="top">
+        <p class="top_title">João Paulo Gonçalves da Silva</p>
+        <nav class="top_nav">
+            <a href="#about_me" class="top_about_me">Sobre mim</a>
+            <a href="#contacts" class="top_contacts">Contatos</a>
+        </nav>   
     </header>
     
     <article>
-        <header>
-            <h1>Desenvolvimento Web</h1>
-            <p>Atenção: Todas as informações dadas abaixo foram extraídas da ferramenta <a href="https://chat.openai.com/">Chat GPT</a>. O texto foi apenas editado e adaptado por mim.</p>
-            <p>Última atualização desta página: 30/08/2023</p>
-
-            <section id="summary">
-                <h2>Sumário</h2>
+        <header >
+            <h1 class="art_title">Desenvolvimento Web</h1>
+            
+            <section id="summary" class="summary">
+                <h2 class="summary_title">Sumário</h2>
                 <nav>
-                    <ul>   
-                        <li><a href="#dev_is">O que é desenvolvimento web?</a></li>
-                        <li><a href="#dev_does">O que faz um desenvolvedor web?</a></li>
-                        <li><a href="#front">O que significa front-end e back-end?</a></li>
-                        <li><a href="#full">O que é desenvolvimento web full stack?</a></li>
+                    <ul class="summary_list">   
+                        <li class="summary_list_item"><a href="#dev_is"  class="summary_list_item_link">O que é desenvolvimento web?</a></li>
+                        <li class="summary_list_item"><a href="#dev_does" class="summary_list_item_link">O que faz um desenvolvedor web?</a></li>
+                        <li class="summary_list_item"><a href="#front" class="summary_list_item_link">O que significa front-end e back-end?</a></li>
+                        <li class="summary_list_item"><a href="#full" class="summary_list_item_link">O que é desenvolvimento web full stack?</a></li>
 
-                        <li>
-                            <a href="#tech">Principais tecnologias de desenvolvimento web</a>
-                            <ul>
-                                <li><a href="#html">HTML</a></li>
-                                <li><a href="#css">CSS</a></li>
-                                <li><a href="#javascript">JavaScript</a></li>
+                        <li class="summary_list_item">
+                            <a href="#tech" class="summary_list_item_link">Principais tecnologias de desenvolvimento web</a>
+                            <ul class="summary_list_subitem_list">
+                                <li class="summary_list_subitem"><a href="#html" class="summary_list_subitem_link">HTML</a></li>
+                                <li class="summary_list_subitem"><a href="#css" class="summary_list_subitem_link">CSS</a></li>
+                                <li class="summary_list_subitem"><a href="#javascript" class="summary_list_subitem_link">JavaScript</a></li>
                             </ul>
                         </li>
                         
-                        <li><a href="#best">Melhores editores de código</a></li>
-                        <li><a href="#list">Principais opções gratuitas para hospedagem de sites estáticos</a></li>
-                        <li><a href="#tips">Dicas de como iniciar a carreira de desenvolvimento web</a></li>
+                        <li class="summary_list_item"><a href="#best" class="summary_list_item_link">Melhores editores de código</a></li>
+                        <li class="summary_list_item"><a href="#hosting" class="summary_list_item_link">Principais opções gratuitas para hospedagem de sites estáticos</a></li>
+                        <li class="summary_list_item"><a href="#tips" class="summary_list_item_link">Dicas de como iniciar a carreira de desenvolvimento web</a></li>
                     </ul>
                 </nav>
             </section>
 
         </header>
 
-        <section id="intro">
+        <section id="intro" class="intro">
             <h2>Introdução</h2>
             <p>O desenvolvimento web é uma área essencial e dinâmica no mundo da tecnologia. Ele se concentra na criação de sites e aplicativos da web que proporcionam uma presença online para empresas, organizações e indivíduos. Esse campo multidisciplinar abrange desde o design visual e interativo que os usuários veem e interagem (front-end) até a infraestrutura e a lógica de funcionamento que operam nos bastidores (back-end).</p>
             <p>À medida que a internet se tornou uma parte intrínseca de nossas vidas, o desenvolvimento web evoluiu para atender às demandas crescentes por experiências online envolventes, funcionais e seguras. Este domínio envolve a utilização de linguagens de programação, tecnologias de servidor, bancos de dados, design responsivo e práticas de segurança para criar websites que não apenas informam e envolvem os usuários, mas também fornecem serviços, vendem produtos e impulsionam o sucesso dos negócios no mundo digital em constante evolução. Neste contexto, o desenvolvimento web é uma disciplina vital que molda a forma como interagimos e conduzimos negócios online.</p>
         </section>
 
-        <section id="dev_is">
+        <section id="dev_is" class="dev_is">
             <h2>O que é desenvolvimento web?</h2>
             <p>Desenvolvimento web é o processo de criação e manutenção de sites e aplicativos da web. Envolve uma combinação de habilidades de programação, design e gerenciamento de servidores para construir e atualizar páginas da web que podem ser acessadas através de navegadores da internet.</p>
             <p>O desenvolvimento web abrange várias áreas, incluindo:</p>
@@ -78,14 +80,14 @@
             <p>Em resumo, o desenvolvimento web é o processo de transformar ideias e conceitos em sites e aplicativos da web funcionais, abrangendo várias disciplinas para criar uma presença online atraente e eficaz.</p>
         </section>
 
-        <section id="dev_does">
+        <section id="dev_does" class="dev_does">
             <h2>O que faz um desenvolvedor web?</h2>
             <p>Um desenvolvedor web é um profissional que cria e mantém sites e aplicativos para a internet. Eles são responsáveis por transformar projetos de design e ideias em código funcional, usando linguagens de programação como HTML, CSS e JavaScript. Os desenvolvedores web também podem trabalhar com frameworks e bibliotecas para agilizar o processo de desenvolvimento e melhorar a eficiência.</p>
             <p>Seu trabalho envolve não apenas a criação da parte visual e interativa dos sites, mas também a garantia de que os elementos funcionem corretamente em diferentes dispositivos e navegadores. Eles lidam com a estruturação das páginas, o layout, a responsividade para diferentes tamanhos de tela, a integração de bancos de dados e a implementação de funcionalidades interativas.</p>
             <p>Além disso, os desenvolvedores web precisam estar atualizados com as últimas tendências e tecnologias para oferecer experiências de usuário modernas e eficazes. Eles são os construtores dos espaços digitais que exploramos diariamente na internet.</p>
         </section>
 
-        <section id="front">
+        <section id="front" class="front">
             <h2>O que significa front-end e back-end?</h2>
             <p>Front-end e back-end são dois conceitos essenciais no campo do desenvolvimento web, cada um desempenhando um papel fundamental na criação de sites e aplicativos.</p>
             <p>O front-end se refere à parte de um site ou aplicativo que os usuários finais veem e interagem diretamente. Isso engloba todos os elementos visuais e interativos, como o design, layout, botões, menus, formulários, imagens e texto. Os desenvolvedores front-end utilizam linguagens como HTML para estrutura, CSS para estilo e JavaScript para interatividade, criando uma experiência de usuário agradável e responsiva.</p>
@@ -93,7 +95,7 @@
             <p>Em resumo, o front-end se concentra na interface do usuário e na experiência visual, enquanto o back-end se concentra na lógica de negócios e na funcionalidade que torna um site ou aplicativo útil e dinâmico. Desenvolvedores full-stack têm habilidades em ambas as áreas e podem trabalhar tanto no front-end quanto no back-end de um projeto.</p>
         </section>
 
-        <section id="full">
+        <section id="full" class="full">
             <h2>O que é desenvolvimento web full stack?</h2>
             <p>Desenvolvimento web full stack refere-se à capacidade de um profissional abranger tanto o aspecto do front-end quanto o do back-end na criação e manutenção de sites e aplicativos. Em outras palavras, um desenvolvedor full stack é competente em todas as etapas do processo de desenvolvimento.</p>
             <p>No front-end, eles lidam com a criação da interface do usuário, englobando a estruturação da página (usando HTML), a estilização (usando CSS) e a implementação da interatividade (usando JavaScript). Isso se concentra em garantir que a experiência do usuário seja agradável e eficiente.</p>
@@ -102,7 +104,7 @@
             <p>A versatilidade é uma característica crucial para os desenvolvedores full stack, que empregam uma variedade de ferramentas e tecnologias, escolhendo aquelas mais adequadas para cada projeto. Sua capacidade de trabalhar em todas as fases do desenvolvimento os torna valiosos em ambientes que exigem flexibilidade, como startups e equipes enxutas. Contudo, também são bem-vindos em equipes maiores, onde podem contribuir em diversas áreas do processo de criação.</p>
         </section>
 
-        <section id="tech">
+        <section id="tech" class="tech">
             <h2>Principais tecnologias de desenvolvimento web</h2>
             <p>No cenário em constante evolução da internet, as tecnologias de desenvolvimento web desempenham um papel crucial na criação de experiências online envolventes e interativas. Três dessas tecnologias - HTML, CSS e JavaScript - são os pilares fundamentais para a construção das páginas web modernas. Cada uma delas possui um papel específico, mas complementar, na definição do design e da funcionalidade de sites e aplicativos web.</p>
 
@@ -118,36 +120,36 @@
             <p>Juntas, essas tecnologias formam o alicerce do desenvolvimento web moderno. Elas permitem que os desenvolvedores criem sites e aplicativos web atraentes, funcionais e responsivos que oferecem uma experiência rica aos usuários.</p>
         </section>
 
-        <section id="best">
+        <section id="best" class="best">
             <h2>Melhores editores de código</h2>
-            <h3><a href="https://code.visualstudio.com/">Visual Studio Code (VS Code):</a></h3>
+            <h3><a href="https://code.visualstudio.com/" class="best_link">Visual Studio Code (VS Code):</a></h3>
             <p>Desenvolvido pela Microsoft, o VS Code é um dos editores de código mais populares do mundo. Ele é altamente extensível e possui uma grande comunidade de desenvolvedores criando extensões que o tornam adequado para uma variedade de linguagens e ambientes de desenvolvimento.</p>
 
-            <h3><a href="https://www.sublimetext.com/">Sublime Text:</a></h3>
+            <h3><a href="https://www.sublimetext.com/" class="best_link">Sublime Text:</a></h3>
             <p>O Sublime Text é conhecido por sua velocidade e eficiência. Ele oferece um conjunto poderoso de recursos e suporta muitas linguagens de programação. Embora não seja de código aberto, tem uma grande base de usuários e é altamente personalizável.</p>
 
-            <h3><a href="https://atom.io/">Atom:</a></h3>
+            <h3><a href="https://atom.io/" class="best_link">Atom:</a></h3>
             <p>Criado pelo GitHub, o Atom é um editor de código de código aberto e altamente extensível. Ele é conhecido por sua facilidade de uso e pela capacidade de personalização por meio de pacotes (packages) criados pela comunidade.</p>
 
-            <h3><a href="https://www.vim.org/">Vim:</a></h3>
+            <h3><a href="https://www.vim.org/" class="best_link">Vim:</a></h3>
             <p>O Vim é um editor de código de terminal altamente configurável e poderoso. Embora tenha uma curva de aprendizado íngreme, muitos desenvolvedores juram por sua eficiência depois de dominá-lo.</p>
 
-            <h3><a href="https://www.gnu.org/software/emacs/">Emacs:</a></h3>
+            <h3><a href="https://www.gnu.org/software/emacs/" class="best_link">Emacs:</a></h3>
             <p>Assim como o Vim, o Emacs é um editor altamente personalizável que tem uma base de usuários dedicada. Ele é conhecido por sua extensibilidade e é muitas vezes usado como uma plataforma de desenvolvimento completa.</p>
 
-            <h3><a href="https://www.jetbrains.com/webstorm/">WebStorm:</a></h3>
+            <h3><a href="https://www.jetbrains.com/webstorm/" class="best_link">WebStorm:</a></h3>
             <p>Desenvolvido pela JetBrains, o WebStorm é uma escolha popular para desenvolvimento web, especialmente para JavaScript e suas várias estruturas. Ele oferece recursos avançados de depuração e produtividade.</p>
 
-            <h3><a href="https://www.eclipse.org/">Eclipse:</a></h3>
+            <h3><a href="https://www.eclipse.org/" class="best_link">Eclipse:</a></h3>
             <p>O Eclipse é amplamente utilizado no desenvolvimento Java, mas também suporta muitas outras linguagens por meio de plugins. É uma escolha sólida para desenvolvedores que trabalham principalmente com Java.</p>
 
-            <h3><a href="https://notepad-plus-plus.org/">Notepad++:</a></h3>
+            <h3><a href="https://notepad-plus-plus.org/" class="best_link">Notepad++:</a></h3>
             <p>Este é um editor de código leve e gratuito para Windows que é fácil de usar e suporta várias linguagens de programação.</p>
 
             <p>A escolha do editor depende do seu fluxo de trabalho, das linguagens de programação com as quais você trabalha e das suas preferências pessoais. Experimentar alguns deles pode ajudá-lo a encontrar o que melhor se adapta às suas necessidades.</p>
         </section>
 
-        <section id="list">
+        <section id="hosting" class="hosting">
             <h2>Principais opções gratuitas para hospedagem de sites estáticos</h2>
             <ul>
                 <li>
@@ -192,7 +194,7 @@
             </ul>
         </section>
 
-        <section id="tips">
+        <section id="tips" class="tips">
             <h2>Dicas de como iniciar a carreira de desenvolvimento web</h2>
             <p>Ingressar no mundo do desenvolvimento web pode ser uma jornada empolgante e gratificante. Comece com uma base sólida de conhecimento dos fundamentos da web, incluindo HTML, CSS e JavaScript. Essas são as ferramentas básicas para qualquer desenvolvedor web.</p>
             <p>A prática constante é a chave para aprimorar suas habilidades. Crie projetos simples para aplicar o que aprendeu e gradualmente desafie-se com projetos mais complexos à medida que ganha confiança. Explore frameworks populares, como React, Angular ou Vue.js, para entender como as aplicações web modernas são desenvolvidas. Isso abrirá novas possibilidades para seus projetos.</p>
@@ -204,21 +206,43 @@
 
     </article>
 
-    <aside id="about_me">
-        <h2>Sobre mim</h2>
-        <p>Olá, meu nome é João Paulo, e eu sou estudante do segundo período de Ciência da Computação na Dom Helder. Eu também curso Engenharia Elétrica na UFMG no turno diurno. Vim para BH após transferir do Inatel, no sul de Minas, onde cursava Engenharia da Computação, apesar de ter nascido em BH e crescido numa cidade próxima. Eu já havia estudado um pouco de HTML e CSS, mas essa é a primeira vez que eu aprofundo no tema.</p>
-        <p></p>
-    </aside>
+    <div class="aside">
+        <aside id="about_me">
+            <h2>Sobre mim</h2>
+            <p>Olá, meu nome é João Paulo, e eu sou estudante do segundo período de Ciência da Computação na Dom Helder. Eu também curso Engenharia Elétrica na UFMG no turno diurno. Vim para BH após transferir do Inatel, no sul de Minas, onde cursava Engenharia da Computação, apesar de ter nascido em BH e crescido numa cidade próxima. Eu já havia estudado um pouco de HTML e CSS, mas essa é a primeira vez que eu aprofundo no tema.</p>
+            <p></p>
+        </aside>
 
-    <aside id="contacts">
-        <h2>Contatos</h2>
-        <p>Email: jpzajo@yahoo.com.br</p>
-        <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-gon%C3%A7alves-da-silva-102146232/">Linkedin</a>
-        <a href="https://www.instagram.com/jpzajo/">Instagram</a>
-    </aside>
+        <aside id="contacts" >
+            <h2 class="contact_title">Contatos</h2>
+            <div class="contacts">
+                <p>Email: jpzajo@yahoo.com.br</p>
+                <div class="contact_insta">
+                    <img src="images/linkedin_icon.png" class="contact_icon" alt="Linkedin Icon">
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-gon%C3%A7alves-da-silva-102146232/" class="contacts_link">Linkedin</a>                    
+                </div>
 
-    <footer>
-        <p>João Paulo Gonçalves da Silva - 2023</p>
+                <div class="contact_linkedin">
+                    <img src="images/insta_icon.png" class="contact_icon" alt="Instagram Icon">
+                    <a href="https://www.instagram.com/jpzajo/" class="contacts_link">Instagram</a>                    
+                </div>
+
+            </div>
+            
+        </aside>
+    </div>
+
+    <footer class="bottom">
+        <div class="info">
+            <div class="info_warn">
+                <p>Atenção: Todas as informações dadas abaixo foram extraídas da ferramenta <a href="https://chat.openai.com/" class="bottom_chat_gpt">Chat GPT</a>. O texto foi apenas editado e adaptado por mim.</p>
+            </div>
+            <div class="info_update">
+                <p>Última atualização desta página: 07/10/2023</p>
+            </div>
+        </div>
+
+        <p class="bottom_p">João Paulo Gonçalves da Silva - 2023</p>
     </footer>
 </body>
 </html>

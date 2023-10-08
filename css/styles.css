@@ -1,0 +1,109 @@
+:root{
+    --text-box-padding: 60px;
+}
+
+*{
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    min-width: 100%;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+.top{
+    background-color: black;
+    color: bisque;
+
+    .top_about_me, .top_contacts{
+        background-color: bisque;
+        color:black;
+    }
+
+}
+
+.art_title{
+    background-color: #d9d3bd;
+}
+
+.summary, .summary_list_item_link{
+    background-color: #7d0f13;
+    color:antiquewhite;
+
+}
+
+.summary_list_item_link, .summary_list_subitem_link{
+    background-color: bisque;
+    color:black;
+}
+
+.intro, .front, .best{
+    background-color: #628b8f;
+}
+
+.dev_is, .full, .hosting{
+    background-color: #746c48;
+    color:antiquewhite
+}
+
+.dev_does, .tech, .tips{
+    background-color: #d9d3bd;
+}
+
+.best_link{
+    color:black;
+}
+
+.aside{
+    background-color: 
+    #d1e0c6;
+
+    .contacts_link{
+        color: black;
+    }
+}
+
+.bottom{
+    .bottom_p, .info_warn{
+        background-color: black;
+        color: bisque;
+    }
+
+    .info_update{
+        background-color: antiquewhite;
+        color: black;
+    }
+
+    .bottom_chat_gpt{
+        color:aliceblue;
+    }
+
+}
+
+
+@media(min-width:768px){
+    .info{
+        background-color: antiquewhite;
+        color: black;
+    
+        .info_warn{
+            background-color: transparent;
+            color: black;
+        }
+    }
+    .bottom{
+        .bottom_chat_gpt{
+            color: #5a6044;
+        }
+    }
+    
+}
+

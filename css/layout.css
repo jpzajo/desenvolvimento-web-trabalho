@@ -49,11 +49,14 @@ body{
     height: 70vh;
 }
 
-.summary_list_item{
+.summary_list_item, .summary_list_item_tech{
     height: 60vh;
 }
+.summary_list_item_tech{
+    padding: 10px 0px 10px 0px;
+}
 
-.summary, .summary_list, .summary_list_item{
+.summary, .summary_list, .summary_list_item, .summary_list_item_tech{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +64,7 @@ body{
 }
 
 .summary_list_item_link{
-    
+    text-align: center;
     padding: 10px;
     border-radius: 20px;
     width:70vw;
@@ -95,6 +98,9 @@ body{
     padding: var(--text-box-padding);
 }
 
+.tech{
+    padding-top: 100px;
+}
 .aside{
     padding-bottom: 10px;
 }
@@ -188,12 +194,16 @@ body{
         height: 83vh;
     }
 
-    .summary_list{
+    .summary_list, .summary_list_item_tech{
         height: 70vh;
     }
     
-    .summary_list_item{
+    .summary_list_item, .summary_list_item_tech{
         height: 60vh;
+    }
+
+    .summary_list_item_link{
+        width: 60vw;
     }
 
     .contacts_content{

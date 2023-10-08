@@ -195,6 +195,10 @@ body{
         height: 83vh;
     }
 
+    .summary_title{
+        line-height: 7vh;
+    }
+    
     .summary_list, .summary_list_item_tech{
         height: 70vh;
     }

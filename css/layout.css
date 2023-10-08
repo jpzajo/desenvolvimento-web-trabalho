@@ -22,7 +22,8 @@ body{
 
 .top_about_me, .top_contacts{
     border-radius: 30px;
-    width: 40%;
+    width: wrap;
+    padding: 0px 10px 0px 10px;
     display: flex;
     justify-content: space-evenly;
     
@@ -43,8 +44,8 @@ body{
 }
 .summary_title{
     height: 7vh;
-
 }
+
 .summary_list{
     height: 70vh;
 }
@@ -183,6 +184,7 @@ body{
     .art_title{
         height: 12vh;
         font-size: 70px;
+        line-height: 12vh;
     }
 
     .top_about_me, .top_contacts{

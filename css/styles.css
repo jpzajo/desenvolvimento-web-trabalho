@@ -23,12 +23,11 @@ p{
 .top{
     background-color: black;
     color: bisque;
-
-    .top_about_me, .top_contacts{
-        background-color: bisque;
-        color:black;
-    }
-
+}
+    
+.top_about_me, .top_contacts{
+    background-color: bisque;
+    color:black;
 }
 
 .art_title{
@@ -66,27 +65,22 @@ p{
 .aside{
     background-color: 
     #d1e0c6;
-
-    .contacts_link{
-        color: black;
-    }
 }
 
-.bottom{
-    .bottom_p, .info_warn{
-        background-color: black;
-        color: bisque;
-    }
+.contacts_link{
+    color: black;
+}
 
-    .info_update{
-        background-color: antiquewhite;
-        color: black;
-    }
-
-    .bottom_chat_gpt{
-        color:aliceblue;
-    }
-
+.bottom_p, .info_warn{
+    background-color: black;
+    color: bisque;
+}
+.info_update{
+    background-color: antiquewhite;
+    color: black;
+}
+.bottom_chat_gpt{
+    color:aliceblue;
 }
 
 
@@ -94,17 +88,14 @@ p{
     .info{
         background-color: antiquewhite;
         color: black;
-    
-        .info_warn{
+    }
+    .info_warn{
             background-color: transparent;
             color: black;
-        }
     }
-    .bottom{
-        .bottom_chat_gpt{
-            color: #5a6044;
-        }
+
+    .bottom_chat_gpt{
+        color: #5a6044;
     }
-    
 }
 

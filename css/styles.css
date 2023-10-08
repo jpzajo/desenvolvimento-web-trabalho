@@ -11,7 +11,7 @@ body{
     min-width: 100%;
 }
 
-h2{
+h2, h3{
     padding-bottom: 20px;
     text-align: left;
 }
@@ -23,6 +23,10 @@ p{
 .top{
     background-color: black;
     color: bisque;
+}
+
+.top_title{
+    text-align: left;
 }
     
 .top_about_me, .top_contacts{

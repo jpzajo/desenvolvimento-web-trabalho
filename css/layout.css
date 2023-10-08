@@ -34,7 +34,8 @@ body{
     font-size: 8vw;
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    line-height: 9vh;
 }
 
 .summary{
@@ -58,8 +59,9 @@ body{
 .summary, .summary_list, .summary_list_item, .summary_list_item_tech{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;    
+    justify-content: space-evenly;
+    align-items: center;   
+    padding: 5px; 
 }
 
 .summary_list_item_link{
